@@ -1,11 +1,17 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif; /*for all body text*/
 }
 
 h1{
     width: 10%;
     margin: 0 auto 0 auto; /*force centers the heading since it has a defined width and doesn't center with text-align*/
+    font-family: 'Sacramento', cursive;
+}
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .top-container{
